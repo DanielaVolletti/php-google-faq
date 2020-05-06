@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  color: #5f6368;
 }
 
 .flex {
@@ -42,6 +41,10 @@ header a {
   font-size: 21px;
 }
 
+.logo h2 a, header nav a {
+  color: #5f6368;
+}
+
 header nav {
   justify-content: space-between;
 }
@@ -65,8 +68,25 @@ header nav ul li:last-child a {
 /* faq */
 main {
   margin-top: 100px;
+  padding: 50px 190px;
+}
+
+.faq {
+  padding-top: 50px;
 }
 
 main h1 {
   color: #3c4043;
+  font-size: 23px;
+}
+
+main p {
+  color: #3c4043;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+main p a {
+  color: #3367d6;
+  text-decoration: none;
 }
