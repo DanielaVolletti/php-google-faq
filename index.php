@@ -88,33 +88,54 @@
        ?>
     </main>
     <!-- footer -->
-    <footer>
-      <ul>
+    <footer class="flex">
+      <ul class="flex">
         <li>
-          <a href="#"></a>
+          <a href="#">Google</a>
         </li>
         <li>
-          <a href="#"></a>
+          <a href="#">Tutto su Google</a>
         </li>
         <li>
-          <a href="#"></a>
+          <a href="#">Privacy</a>
         </li>
         <li>
-          <a href="#"></a>
+          <a href="#">Termini</a>
         </li>
       </ul>
-      <select class="" name="">
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-      </select>
+      <div class="language flex">
+        <img src="img/language.png" alt="">
+        <select class="" name="">
+          <option value="">Italiano</option>
+          <option value="">Afrikaans</option>
+          <option value="">Bahasa Indonesia</option>
+          <option value="">Bahasa Melayu</option>
+          <option value="">Català</option>
+          <option value="">Čeština</option>
+          <option value="">Dansk</option>
+          <option value="">Deutsch</option>
+          <option value="">Eesti</option>
+          <option value="">English</option>
+          <option value="">English (United Kingdom)</option>
+          <option value="">Español</option>
+          <option value="">Español (Latinoamérica)</option>
+          <option value="">Euskara</option>
+          <option value="">Filipino</option>
+          <option value="">Français</option>
+          <option value="">Français (Canada)</option>
+          <option value="">Galego</option>
+          <option value="">Hrvatski</option>
+          <option value="">Isizulu</option>
+          <option value="">Íslenska</option>
+          <option value="">Kiswahili</option>
+          <option value="">Latviešu</option>
+          <option value="">Português (Portugal)</option>
+          <option value="">Ελληνικά</option>
+          <option value="">Türkçe</option>
+          <option value="">‫العربية‬</option>
+          <option value="">日本語</option>
+        </select>
+      </div>
     </footer>
 
   </body>
