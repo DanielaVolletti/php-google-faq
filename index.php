@@ -2,6 +2,8 @@
 <html lang="it" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Faq Google</title>
     <?php
       $faqs = [
@@ -41,14 +43,14 @@
   <body>
     <!-- barra di navigazione -->
     <header>
-      <div class="">
+      <div class="logo flex">
         <img src="img/logo.png" alt="">
         <h2>
           <a href="#">Privacy e termini</a>
         </h2>
       </div>
-      <nav>
-        <ul>
+      <nav class="flex">
+        <ul class="flex">
           <li>
             <a href="#">Introduzione</a>
           </li>
@@ -66,9 +68,7 @@
           </li>
         </ul>
         <a href="#">Account Google</a>
-
       </nav>
-
     </header>
     <!-- sezione faq -->
     <main>

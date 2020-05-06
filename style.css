@@ -1,0 +1,72 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: #5f6368;
+}
+
+.flex {
+  display: flex;
+}
+
+/* regole barra di navigazione */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom: solid 1px lightgray;
+  padding: 25px 25px 0px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.logo {
+  padding-bottom: 18px;
+  align-items: flex-end;
+}
+
+.logo img {
+  padding-right: 10px;
+  height: 24px;
+  width: auto;
+}
+
+.logo h2 {
+  font-size: 21px;
+}
+
+header nav {
+  justify-content: space-between;
+}
+
+header nav ul li {
+  list-style-type: none;
+  padding-right: 40px;
+}
+
+header nav a {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+header nav ul li:last-child a {
+  color: #3367d6;
+  border-bottom: solid 3px #3367d6;
+  padding-bottom: 4px;
+}
+
+/* faq */
+main {
+  margin-top: 100px;
+}
+
+main h1 {
+  color: #3c4043;
+}
