@@ -6,7 +6,7 @@
   // funzione per determinare il numero delle faqs
   function numeroFaq($faqs){
     $numFaqs= count($faqs);
-    echo "<h5 class='conteggio-faqs'>Faqs: " . $numFaqs . "</h5>";
+    echo "<h5 class='conteggio-faqs'>Faqs: " . $numFaqs . "</h5>";    
   }
 
  ?>

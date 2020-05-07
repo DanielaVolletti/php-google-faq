@@ -8,6 +8,7 @@
     <?php
       require_once "faqs.php";
       require_once "function.php";
+      $numberGetFaqs = $_GET['num'];
      ?>
   </head>
   <body>
@@ -43,12 +44,18 @@
     <!-- sezione faq -->
     <main>
       <?php
-        // ciclo foreach per generare faq in pagina
-        foreach ($faqs as $faq) {
-          generaFaqs($faq);
-        }
         // determinazione numero faqs
         numeroFaq($faqs);
+
+        // ciclo foreach per generare faq in pagina
+        foreach ($faqs as $chiave => $faq) {
+          $chiave = $chiave + 1;
+          if($chiave == $numberGetFaqs) {
+            generaFaqs($faq);
+          } 
+
+        }
+
        ?>
     </main>
     <!-- footer -->
