@@ -82,8 +82,7 @@
       <?php
         foreach ($faqs as $faq) {
           echo
-              "<div class='faq'><h1>" . $faq['domanda'] . "</h1>" . "<br>"
-              ."<p>" . $faq['risposta'] . "</p>" . "<br></div>";
+              "<div class='faq'> <h1>" . $faq['domanda'] . "</h1> <br> <p>" . $faq['risposta'] . "</p> <br> </div>";
         }
        ?>
     </main>

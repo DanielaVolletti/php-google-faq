@@ -20,6 +20,7 @@ header {
   background-color: white;
   border-bottom: solid 1px lightgray;
   padding: 25px 25px 0px;
+  z-index: 1;
 }
 
 header a {
@@ -70,6 +71,7 @@ header nav ul li:last-child a {
 main {
   margin-top: 100px;
   padding: 50px 190px;
+  position: relative;
 }
 
 .faq {
@@ -90,6 +92,16 @@ main p {
 main p a {
   color: #3367d6;
   text-decoration: none;
+}
+
+.conteggio-faqs {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #3367d6;
+  color: white;
 }
 
 /* footer */

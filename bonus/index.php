@@ -7,6 +7,7 @@
     <title>Faq Google</title>
     <?php
       require_once "faqs.php";
+      require_once "function.php";
      ?>
   </head>
   <body>
@@ -42,11 +43,12 @@
     <!-- sezione faq -->
     <main>
       <?php
+        // ciclo foreach per generare faq in pagina
         foreach ($faqs as $faq) {
-          echo
-              "<div class='faq'><h1>" . $faq['domanda'] . "</h1>" . "<br>"
-              ."<p>" . $faq['risposta'] . "</p>" . "<br></div>";
+          generaFaqs($faq);
         }
+        // determinazione numero faqs
+        numeroFaq($faqs);
        ?>
     </main>
     <!-- footer -->
